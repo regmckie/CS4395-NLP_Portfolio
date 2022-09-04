@@ -42,16 +42,16 @@ def process_text(text_from_file):
     for i in range(0, 25, 5):
         # Get the elements in the list that correspond to the way we initialize the Person class
         # (i.e., (last, first, mi, id, phone)
-        new_text[i + 0] = new_text[i + 0].capitalize()    # Last name
-        new_text[i + 1] = new_text[i + 1].capitalize()    # First name
+        new_text[i + 0] = new_text[i + 0].capitalize()  # Last name
+        new_text[i + 1] = new_text[i + 1].capitalize()  # First name
 
-        new_text[i + 2] = new_text[i + 2].upper()         # Middle name
+        new_text[i + 2] = new_text[i + 2].upper()  # Middle name
 
         # If there is no middle name, then replace it with a capital 'X'
         if new_text[i + 2] == "":
             new_text[i + 2] = "X"
 
-        id_of_employee = new_text[i + 3]    # Employee ID
+        id_of_employee = new_text[i + 3]  # Employee ID
 
         # Check to see if the ID is valid (i.e., it must be 2 letters followed by 4 digits).
         # If it's not valid, then prompt the user to enter a valid ID
@@ -70,7 +70,7 @@ def process_text(text_from_file):
                     employee_id_list.append(new_id_of_employee)
                 elif new_id_of_employee in employee_id_list:
                     print("*** ERROR: Duplicate ID. The old employee's information associated with this ID will be"
-                         " erased and populated by the new employee's information ***")
+                          " erased and populated by the new employee's information ***")
 
         # Make the ID in list the new ID (if it wasn't valid)
         new_text[i + 3] = new_id_of_employee
@@ -108,7 +108,7 @@ def get_file(input_filepath):
     """
     Returns the text from the input file (data.csv)
     :param input_filepath: path to the file we take as input as a parameter into the program
-    :return: the text from the input file
+    :return read_text_in: the text from the input file
     """
     with open(os.path.join(os.getcwd(), input_filepath), 'r') as file:
         read_text_in = file.read()
@@ -139,11 +139,13 @@ def main(input_file):
     for key in read_employee_dict:
         read_employee_dict[key].display()
 
+
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         # Let the user enter the path
         input_file = input("Please enter the relative path for the input file as a system arg ('data/data.csv'): ")
         main(input_file)
     else:
-        input_file = sys.argv[1]                    # Get file path for input file
+        # Get file path for input file
+        input_file = sys.argv[1]
         main(input_file)
