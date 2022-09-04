@@ -92,7 +92,7 @@ def process_text(text_from_file):
         # Make the phone number in list the new phone number (if it wasn't valid)
         new_text[i + 4] = new_phone_number
 
-        # Create a Person object for the employee
+        # Create a Person object for the employee.
         # Person object is created passing in the parameters for: last name, first name, middle name, id, phone number
         employee = Person(new_text[i + 0], new_text[i + 1], new_text[i + 2], new_text[i + 3], new_text[i + 4])
 
