@@ -18,3 +18,10 @@ In terms of the strengths and weakness of Python when it comes to text processin
 Last semester (Spring 2022), I took CS 4365 (Artificial Intelligence) and CS4375 (Intro to Machine Learning), both of which used Python in their class. Some of this was a review for me (e.g., lists, dictionaries, creating classes, etc.), but some of this was brand new. For example, while I've worked with regular expressions before in other classes, I never did so in Python. I also learned how to read/write pickle files and get experience with sysarg.
 
 You can find the link to my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment1/Assignment1_rdg170330.py)
+
+
+### Assignment 2
+
+The objective of this assignment was to practice using some features of the NLTK library in Python and look over documentation over professional-level natural language processing API. In this assignment, I created a Python notebook using Google Colab, imported and installed some NLTK libraries, and practiced using features of the libraries such as word tokenization, sentence tokenization, lemmatization, stemming, etc. There is also text blocks interspersed amongst the code blocks to give commentary about what exactly I did. 
+
+You can find the link to a PDF printout of my program here.
