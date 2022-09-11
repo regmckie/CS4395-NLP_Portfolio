@@ -24,4 +24,4 @@ You can find the link to my program [here.](https://github.com/regmckie/CS4395-N
 
 The objective of this assignment was to practice using some features of the NLTK library in Python and look over documentation over professional-level natural language processing API. In this assignment, I created a Python notebook using Google Colab, imported and installed some NLTK libraries, and practiced using features of the libraries such as word tokenization, sentence tokenization, lemmatization, stemming, etc. There is also text blocks interspersed amongst the code blocks to give commentary about what exactly I did. 
 
-You can find the link to a PDF printout of my program here.
+You can find the link to a PDF printout of my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment2_rdg170330.pdf)
