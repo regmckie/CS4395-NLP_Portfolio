@@ -2,12 +2,12 @@
 This is Reg Gonzalez's portfolio for class CS 4395.001 (Natural Language Processing). This portfolio is for the Fall 2022 semester at the University of Texas at Dallas, taught by Karen Mazidi. 
 
 
-### Assignment 0
+### Assignment 0 (Overview of NLP)
 
 The objective of this assignment was to create a GitHub portfolio for this class. We also had to write a summary about the historical & current current apporaches to NLP and a paragraph about our own personal interests in NLP; this was called an "Overview of NLP." You can see my "Overview of NLP" pdf [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Overview%20of%20NLP.pdf)
 
 
-### Assignment 1
+### Assignment 1 (Text Processing with Python)
 
 The objective of this assignment was to get comfortable programming in Python, using system arguments, creating classes, coding regular expressions, and performing file I/O and pickling. This program takes in an .csv file (titled "data.csv") as an argument, extracts the text from that file, reformats it, and displays the reformatted text onto the screen. There is a class called Person that holds in the text and a .display() function that displays the reformatted text. Finally, there is some pickling involved—essentially we just write the reformatted text into a .p file and read it in to display the information.
 
@@ -20,7 +20,7 @@ Last semester (Spring 2022), I took CS 4365 (Artificial Intelligence) and CS4375
 You can find the link to my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment1/Assignment1_rdg170330.py)
 
 
-### Assignment 2
+### Assignment 2 (Exploring NLTK)
 
 The objective of this assignment was to practice using some features of the NLTK library in Python and look over documentation over professional-level natural language processing API. In this assignment, I created a Python notebook using Google Colab, imported and installed some NLTK libraries, and practiced using features of the libraries such as word tokenization, sentence tokenization, lemmatization, stemming, etc. There is also text blocks interspersed amongst the code blocks to give commentary about what exactly I did. 
 
