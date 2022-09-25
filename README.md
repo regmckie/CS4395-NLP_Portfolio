@@ -48,4 +48,4 @@ For our exploration with SentiWordNet, we found the senti-synets of an "emotiona
 
 In the last part of this assignment we explore collocations a bit as well. We had to output the collocations of a specific text (i.e., text4, the Inaugural corpus) and calculate the point-wise mutual information, or PMI, score for one of those collocations. 
 
-You can find the link to a PDF printout of my program [here.]
+You can find the link to a PDF printout of my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment4_rdg170330.pdf)
