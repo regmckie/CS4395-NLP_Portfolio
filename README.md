@@ -35,7 +35,7 @@ After all that preprocessing, we used that list of nouns as our word bank for th
 
 The guessing game was essentially hangman: there would be a line for each letter in the word the user had to guess. The objective was to guess all the letters in the word. If the user accomplished that, the game would run infinitely, continuing to give users new words to guess. There was also a score system implemented. If the user guessed a letter right, their score would increment. If they guessed a letter wrong, their score would decrement. The game would end if the user input the "!" character or if they had a score < 0 (i.e., a negative score).
 
-You can find the link to my program [here.]
+You can find the link to my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment3/Assignment3_rdg170330.py)
 
 
 ### Assignment 4: Exploring WordNet and SentiWordNet
