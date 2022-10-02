@@ -1,4 +1,4 @@
-# CS 4395 (Human Language Technologies/Natural Language Processing) Portfolio
+# CS 4395 (Human Language Technologies) Portfolio
 This is Reg Gonzalez's portfolio for class CS 4395.001 (Human Language Technologies). This portfolio is for the Fall 2022 semester at the University of Texas at Dallas, taught by Karen Mazidi. 
 
 
@@ -49,3 +49,16 @@ For our exploration with SentiWordNet, we found the senti-synets of an "emotiona
 In the last part of this assignment we explore collocations a bit as well. We had to output the collocations of a specific text (i.e., text4, the Inaugural corpus) and calculate the point-wise mutual information, or PMI, score for one of those collocations. 
 
 You can find the link to a PDF printout of my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment4_rdg170330.pdf)
+
+
+### Assignment 5: N-grams
+
+The objective of this assignment was to gain experience creating n-grams from text. We also built language models from n-grams and reflected on the utility of such language models. 
+
+In this assignment, I creted unigram and bigram dictionaries for English, French, and Italian (using some training data provided). In the dictionaries, the key is the unigram or bigram text and the value is the count of that particular unigram or bigram in the data. After making the unigram and bigram dictionaries, I used some test data (also provided) to calculate probabilities. 
+
+The test data was basically just a list of sentences in a file, separated by a newline. Each sentence would either be in English, French, or Italian, and we had to calculate the probabilities that the given sentence was in each language. After calculating the probability of all three languages for each sentence, we would output the language with the highest probability into a file. Finally, we'd compare our answers in that file to a solution file and output an accuracy score in the very end. 
+
+Finally, there is also a narrative I wrote reflecting on n-grams and their usage. In the narrative I talked about how n-grams cane be used to build language models, listed a few applications that use n-grams, gave a description of how to calculate probabilities, etc. 
+
+You can find a link to my programs [here.] You can also find a link to my PDF document [here.]
