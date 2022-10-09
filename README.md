@@ -59,9 +59,9 @@ In this assignment, I creted unigram and bigram dictionaries for English, French
 
 The test data was basically just a list of sentences in a file, separated by a newline. Each sentence would either be in English, French, or Italian, and we had to calculate the probabilities that the given sentence was in each language. After calculating the probability of all three languages for each sentence, we would output the language with the highest probability into a file. Finally, we'd compare our answers in that file to a solution file and output an accuracy score in the very end. 
 
-Finally, there is also a narrative I wrote reflecting on n-grams and their usage. In the narrative I talked about how n-grams cane be used to build language models, listed a few applications that use n-grams, gave a description of how to calculate probabilities, etc. 
+Finally, there is also a PDF narrative I wrote reflecting on n-grams and their usage. In the narrative I talked about how n-grams cane be used to build language models, listed a few applications that use n-grams, gave a description of how to calculate probabilities, etc. 
 
-You can find a link to my programs [here.] You can also find a link to my PDF document [here.]
+You can find a link to program 1 [here](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment5/Assignment5_program1_rdg170330.py) and program 2 [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment5/Assignment5_program2_rdg170330.py) You can also find a link to my PDF document [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment5/N-grams%20Narrative_rdg170330.pdf)
 
 
 ### Assignment 6: Finding/Building a Corpus
@@ -71,4 +71,4 @@ For this assignment, we were tasked to create a web crawler and perform web scra
 
 Finally, I created a document that described how I created the knowledge base. It includes screenshots of my code and some of the output for the files.
 
-You can find a link to my program [here.] You can also find a link to my PDF document [here.]
+You can find a link to my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment6/Assignment6_rdg170330.py) You can also find a link to my PDF document [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment6/Assignment%206%20Report.pdf)
