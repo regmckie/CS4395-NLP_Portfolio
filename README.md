@@ -65,6 +65,7 @@ You can find a link to program 1 [here](https://github.com/regmckie/CS4395-NLP_P
 
 
 ### Assignment 6: Finding/Building a Corpus
+
 The objective of this assignment was to understand the importance of corpora in NLP tasks, how HTML is structures, and how web sites work.
 
 For this assignment, we were tasked to create a web crawler and perform web scraping using BeautifulSoup and other APIs. First, we had to build a web crawler function. We had to give a starting URL to the function and had to collect at least 15 *relevant* URLs. Here, "relevant" meant URLs that dealt specifically with the topic we chose (based on the starting URL). After getting those 15 URLs, we extracted the text from each page and each put them in their own file (15 files total). Later, we cleaned the text by deleting newlines and tabs, reformatting it, etc. Then, we put that newly cleaned text into 15 new files (so now, at least 30 files total). After cleaning the text and putting them into their own files, I extracted the top 40 terms from all 15 pages and outputted them to the screen. From those 40 terms, I hand-selected 10 terms I thought were the best terms. Using those 10 terms, I created a knowledge base, which was a Python dictionary where the (key: value) pairs were (terms: sentences from the 15 page that included that term).
@@ -72,3 +73,12 @@ For this assignment, we were tasked to create a web crawler and perform web scra
 Finally, I created a document that described how I created the knowledge base. It includes screenshots of my code and some of the output for the files.
 
 You can find a link to my program [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment6/Assignment6_rdg170330.py) You can also find a link to my PDF document [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment6/Assignment%206%20Report.pdf)
+
+
+### Assignment 7: Sentence Parsing
+
+The objective of this asignment was to understand concepts related to sentence syntax, understand the 3 different types of sentence parsing (PSG, dependency, and SRL), and finally be able to use syntax parsers.
+
+First, I made up a fairly complex sample sentence—one with at least 12 tokens—and hand drew a PSG tree for that sentence. I labeled the parts of speech and then briefly defined the phrase terms that appeared in the sentence (e.g., S, SBAR, NP, VP, etc.). After that, I hand drew a dependency parse of the sentence and labeled the dependency relations. Next, I defined the dependency relations present as well (e.g., amod, cc, conj, etc.). For the SRL parse, I listed the predicate for each frame of the sentence, its arguments, and its modifiers (if any were present). I then discussed the arguments and their relation with the predicate/verb for each frame and defined any modifiers that were available. Finally, I wrote a few paragraphs describing what I thought were the pros and cons for each parse type and how they each worked for my sample sentence.
+
+You can find a link to my PDF document [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment7_rdg170330.pdf)
