@@ -82,3 +82,16 @@ The objective of this asignment was to understand concepts related to sentence s
 First, I made up a fairly complex sample sentence—one with at least 12 tokens—and hand drew a PSG tree for that sentence. I labeled the parts of speech and then briefly defined the phrase terms that appeared in the sentence (e.g., S, SBAR, NP, VP, etc.). After that, I hand drew a dependency parse of the sentence and labeled the dependency relations. Next, I defined the dependency relations present as well (e.g., amod, cc, conj, etc.). For the SRL parse, I listed the predicate for each frame of the sentence, its arguments, and its modifiers (if any were present). I then discussed the arguments and their relation with the predicate/verb for each frame and defined any modifiers that were available. Finally, I wrote a few paragraphs describing what I thought were the pros and cons for each parse type and how they each worked for my sample sentence.
 
 You can find a link to my PDF document [here.](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment7_rdg170330.pdf)
+
+
+### Assignment 8: Chatbot
+
+
+### Assignment 9: ACL Paper Summary
+
+
+### Assignment 10: Author Attribution
+
+
+### Assignment 11: Text Classification
+
