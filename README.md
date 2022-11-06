@@ -92,6 +92,14 @@ You can find a link to my PDF document [here.](https://github.com/regmckie/CS439
 
 ### Assignment 10: Author Attribution
 
+The objective of this assignment was to gain experience with machine learning using sklearn as well as experiment with NLP task author attribution. 
+
+The dataset for this assignment was *The Federalist Papers*, a collection of documents written by James Madison, Alexander Hamilton, and John Jay under the pseudonym Publius. The goal of author attribution is to try to identify the author of a given document, so in this case, it'd be a document from *The Federalist Papers*.
+
+We applied numerous ML models in order to achieve this author attribution, including Bernoulli Naive Bayes, logistic regression, and neural networks. But before that, we had to do some standard ML procedures, including dividing the data into train/test, removing stop words, performing tf-idf vectorization, fitting to the training data, etc. 
+
+You can find a link to my PDF document [here.]
+
 
 ### Assignment 11: Text Classification
 
