@@ -88,7 +88,7 @@ You can find a link to my PDF document [here.](https://github.com/regmckie/CS439
 
 The objective of this assignment was to create a chatbot using some of the NLP techniques we learned in class.
 
-The specific type of chatbot I implemented was a task-oriented dialogue agent that specifically had knowledge about the movie *The Nightmare Before Christmas* (1993). The chatbot specializes in answering questions about the movie using a knowledge that I created. The knowledge base consists of several statements and facts about the movie that serve as potential responses when the user asks the chatbot a question. You can also ask the chatbot to give you a fun fact, in which it will respond with a random fun fact that's also in the knowledge base.
+The specific type of chatbot I implemented was a task-oriented dialogue agent that specifically had knowledge about the movie *The Nightmare Before Christmas* (1993). The chatbot specializes in answering questions about the movie using a knowledge base that I created. The knowledge base consists of several statements and facts about the movie that serve as potential responses when the user asks the chatbot a question. You can also ask the chatbot to give you a fun fact, in which it will respond with a random fun fact that's also in the knowledge base.
 
 I used several NLP techniques for this chatbot including tokenization, lemmatization, tf-idf vectorization, and cosine similiarity. The chatbot also saves user information. The information it can save is the user's name as well as their likes/dislikes about the movie. 
 
