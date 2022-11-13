@@ -86,9 +86,24 @@ You can find a link to my PDF document [here.](https://github.com/regmckie/CS439
 
 ### Assignment 8: Chatbot
 
+The objective of this assignment was to create a chatbot using some of the NLP techniques we learned in class.
+
+The specific type of chatbot I implemented was a task-oriented dialogue agent that specifically had knowledge about the movie *The Nightmare Before Christmas* (1993). The chatbot specializes in answering questions about the movie using a knowledge that I created. The knowledge base consists of several statements and facts about the movie that serve as potential responses when the user asks the chatbot a question.
+
+I used several NLP techniques for this chatbot including tokenization, lemmatization, tf-idf vectorization, and cosine similiarity. The chatbot also saves user information. The information it can save is the user's name as well as their likes/dislikes about the movie. 
+
+Lastly, there is a report included with this assignment. The report includes a system description (including a more in-depth description of the NLP techniques I used), a diagram of the dialogue tree, sample dialogue interactions, an evaluation and analysis of the chatbot, and an appendices for the knowledge base I created and the saved user models.
+
+You can find a link to my program [here]. You can also find a link to my report [here].
+
 
 ### Assignment 9: ACL Paper Summary
 
+The objective of this assignment was to select one paper from the Long Papers Proceedings of the 2021 ACL conference and write a report on it.
+
+In this assignment, we had to write at least a 2-page paper including the authors and their affiliations, the problems they wanted to solve, their prior work, the unique contributions of the paper, the authors' evaluation and analysis of their work, and lastly, the number of citations per author.
+
+You can find a link to my PDF document [here].
 
 ### Assignment 10: Author Attribution
 
