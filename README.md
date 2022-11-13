@@ -94,7 +94,7 @@ I used several NLP techniques for this chatbot including tokenization, lemmatiza
 
 Lastly, there is a report included with this assignment. The report includes a system description (including a more in-depth description of the NLP techniques I used), a diagram of the dialogue tree, sample dialogue interactions, an evaluation and analysis of the chatbot, and an appendices for the knowledge base I created and the saved user models.
 
-You can find a link to my program [here]. You can also find a link to my report [here].
+You can find a link to my program [here](https://github.com/regmckie/CS4395-NLP_Portfolio/tree/main/Assignment8). You can also find a link to my report [here](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment8/chatbot_report_rdg170330.pdf).
 
 
 ### Assignment 9: ACL Paper Summary
@@ -103,7 +103,7 @@ The objective of this assignment was to select one paper from the Long Papers Pr
 
 In this assignment, we had to write at least a 2-page paper including the authors and their affiliations, the problems they wanted to solve, their prior work, the unique contributions of the paper, the authors' evaluation and analysis of their work, and lastly, the number of citations per author.
 
-You can find a link to my PDF document [here].
+You can find a link to my paper [here](https://github.com/regmckie/CS4395-NLP_Portfolio/blob/main/Assignment9_rdg170330.pdf).
 
 ### Assignment 10: Author Attribution
 
